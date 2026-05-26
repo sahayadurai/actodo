@@ -5,7 +5,7 @@ function TodoItem(props) {
     function handleDelete(ideleteid) {
 
         var tempArr = activityArr.filter(function (item) {
-            if (item.id == ideleteid) {
+            if (item.id === ideleteid) {
                 return false;
             }
             else {
